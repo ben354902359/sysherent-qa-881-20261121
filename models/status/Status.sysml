@@ -1,3 +1,5 @@
 package FixtureStatus {
-    part def SyncStatus {
-// Deliberately incomplete syntax for isolated GitHub Sync recovery QA.
+    part def SyncStatus;
+    part def RecoveryConfirmed;
+}
+// Automatic recovery D after a rejected incomplete candidate.
